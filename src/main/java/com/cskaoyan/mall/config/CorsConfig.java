@@ -8,6 +8,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class CorsConfig {
+    //fkdjajs
 
 
     private CorsConfiguration buildConfig() {
