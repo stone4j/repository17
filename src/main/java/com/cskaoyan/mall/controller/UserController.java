@@ -25,6 +25,7 @@ public class UserController {
         System.out.println("hello xiaofang");
 
         System.out.println("hello xiaowang");
+        System.out.println("hello idea git");
 
         listBaseReqVo.setData(users);
         return listBaseReqVo;
