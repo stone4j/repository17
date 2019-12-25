@@ -19,9 +19,12 @@ public class UserController {
     @RequestMapping("list")
     public BaseReqVo list(Integer page,Integer limit){
         List<User> users = userService.queryUsers(page, limit);
-        int i = 10;
+        int i = 5;
         BaseReqVo<List<User>> listBaseReqVo = new BaseReqVo<>();
         System.out.println("hello xiaofang");
+
+        System.out.println("hello xiaowang");
+
         listBaseReqVo.setData(users);
         return listBaseReqVo;
     }
